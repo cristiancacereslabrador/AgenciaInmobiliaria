@@ -13625,7 +13625,8 @@ nav[aria-label="breadcrumb"] li:before {
 }
 .site-footer a {
   /* color: #777; */
-  color: #005555;
+  color:  #00204a;
+  /* color: #005555; */
   font-size: 80px;
   position: relative;
   display: inline-block;
