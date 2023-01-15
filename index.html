@@ -95,18 +95,31 @@
           class="img overlay"
           style="background-image: url('images/hero_bg_1.jpg')"
         ></div>
+       
       </div>
 
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-lg-9 text-center">
-            <h1 class="heading" data-aos="fade-up">
+            <!-- <h1 class="heading" data-aos="fade-up">
               HOLA SOY LISETH VALLADARES TU AGENTE INMOBILIARIO
-            </h1>
-            <h1 class="heading" data-aos="fade-up">
-              HOLA SOY LISETH VALLADARES TU AGENTE INMOBILIARIO - BIENVENIDO A MI PAGINA WEB
-            </h1>
-            <form
+            </h1> -->
+        <!-- <h2 class=""><span class="typed"> </span></h2>       -->
+           
+       		<!-- <h2 class="titulo">Traé a HomePets <br> a tu <span class="typed"></span></h2> -->
+        <!-- Forma #2 -->
+
+						 <h1 class="heading" data-aos="fade-up">
+							<span class="typed" id="typed" ></span>
+						</h1> 
+					  <!-- <div class="typed" id="typed">
+						<p>Traé a HomePets <br> a tu <i class="mascota">Perro</i></p>
+						<p>Traé a HomePets <br> a tu <i class="mascota">Gato</i></p>
+						<p>Traé a HomePets <br> a tu <i class="mascota">Pez</i></p> -->
+					</div>   
+
+           
+            <!-- <form
               action="#"
               class="narrow-w form-search d-flex align-items-stretch mb-3"
               data-aos="fade-up"
@@ -118,7 +131,7 @@
                 placeholder="Your ZIP code or City. e.g. New York"
               />
               <button type="submit" class="btn btn-primary">Busqueda</button>
-            </form>
+            </form> -->
           </div>
         </div>
       </div>
@@ -1104,5 +1117,27 @@
     <script src="js/navbar.js"></script>
     <script src="js/counter.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/configuracion-typed.js"></script> -->
+    <script src="js/typed.js"></script>
+<script>
+  var typed = new Typed('.typed', {
+  strings: ["Hola soy Liseth Valladares..", "Bienvenido a mi página Web", "Acá podrás encontrar excelentes ofertas inmobiliarias", "Estoy para servirle... Espero su llamado."],
+  stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
+	typeSpeed: 75, // Velocidad en mlisegundos para poner una letra,
+	startDelay: 300, // Tiempo de retraso en iniciar la animacion. Aplica tambien cuando termina y vuelve a iniciar,
+	backSpeed: 75, // Velocidad en milisegundos para borrrar una letra,
+	smartBackspace: false, // Eliminar solamente las palabras que sean nuevas en una cadena de texto.
+	shuffle: false, // Alterar el orden en el que escribe las palabras.
+	backDelay: 1500, // Tiempo de espera despues de que termina de escribir una palabra.
+	loop: true, // Repetir el array de strings
+	loopCount: false, // Cantidad de veces a repetir el array.  false = infinite
+	showCursor: true, // Mostrar cursor palpitanto
+	cursorChar: '|', // Caracter para el cursor
+	contentType: 'html',
+});
+</script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script> -->
+    
   </body>
 </html>
